@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
+body {
+  margin: 0px;
+
+}
+
+h1 , h2 {
+  text-align: center;
+  margin: 0px;
+}
+
+.head_container {
+  background-color: #D3E4CD;
+}
+
+.zero_container {
+  background-color: #D3E4CD;
+  text-align: right;
+
+}
+
+.top_container {
+  background-color: #D3E4CD;
+}
+
+.story_container {
+  background-color: #F2DDC1;
+
+}
+
+.midlle_container {
+  background-color: #F2DDC1;
+  width: 200px;
+  height: 200px;
+}
+
+.bottom_container {
+  background-color: #D3E4CD;
+}
+
+#img-cloud-1 {
+  margin: 15px;
+  width: 15%;
+  height: 15%;
+}
+
+#img-cloud-2 {
+  width: 15%;
+  height: 15%;
+}
+
+#img-cloud-3 {
+  width: 20%;
+  height: 20%;
+}
+
+#img-mountain {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: block;
+
+}
+
+#img-monster {
+  width: 5%;
+  height: 5%;
+  margin: 10px;
+  -webkit-transition: -webkit-transform 1s; /*rotate the monster*/
+}
+
+
+#img-monster:hover {
+  -webkit-transform: rotate(360deg) translateZ(0); /*rotate the monster*/
+}
+
+#img-name {
+  align-items: center;
+  width: 30%;
+  height: 30%;
+  margin: 10px;
+}
+
+#img-position{
+  align-items: center;
+  width: 20%;
+  height: 20%;
+}
+
+button {
+  width: 150px;
+  color: #E4EFE7;
+  font-size: 25px;
+  background: #7AB0C1;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  margin-top: 30px;
+  margin-left: 15px;
+  font-family: "Oooh Baby" , sans-serif;
+  transition: ease-out 0.2s;
+  box-shadow: inset 0 0 0 0 #41ABAC;
+}
+
+
+button:hover {
+  box-shadow: inset 150px 0 0 0 #41ABAC;
+  cursor: pointer;
+
+}
+
+.button_pref {
+    background-color: #D3E4CD;
+}
+
+p , h3 , h4 {
+  font-family: "Oooh Baby" , sans-serif;
+  color: #41ABAC;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
